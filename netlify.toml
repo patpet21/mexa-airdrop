@@ -1,8 +1,9 @@
 [build]
-  publish = "."
-  command = "echo 'No build necessary for static site'"
+  command = "npm run build"
+  publish = "airdrop-main"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
